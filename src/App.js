@@ -1,21 +1,18 @@
-import logo from './logo.svg';
+import AmongUsGif from './assets/among-us-dancing.gif';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={AmongUsGif} className="App-logo" alt="logo" />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.innersloth.com/games/among-us/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Gator UX
         </a>
       </header>
     </div>
